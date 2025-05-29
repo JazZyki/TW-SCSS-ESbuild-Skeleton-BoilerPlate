@@ -1,0 +1,12 @@
+@use './abstract/' as *;
+
+@forward 'base/index';
+@forward 'components/index';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skeleton {
+  @apply bg-gray-300 rounded animate-pulse;
+}
